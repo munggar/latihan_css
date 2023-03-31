@@ -1,0 +1,46 @@
+#table-siswa{
+    background: url('http://static1.squarespace.com/static/5fe4caeadae61a2f19719512/5fe5c3a9d85eb525301180ed/5ff082ae17af6f5d1930e6bf/1610530333403/Wallpaper+engine+4k.png?format=1500w');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: palegreen;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#table-siswa h3{
+    font-size: 32px;
+}
+
+#table-siswa td{
+    padding: 20px;
+}
+
+#siswa-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.siswa-foto img{
+    box-shadow: 1px 1px 7px 1px black;
+    transition: all 1s ease-in-out;
+}
+
+
+.siswa-foto img:hover{
+    box-shadow: 0px 0px 7px 2px aliceblue;
+}
